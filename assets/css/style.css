@@ -107,7 +107,7 @@ nav.navbar-light ul.navbar-nav li:last-child{
 }
 .block-width .col-half{
   -ms-flex-preferred-size: 0;
-  flex-basis: 0;
+  flex-basis: auto;
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
@@ -116,7 +116,7 @@ nav.navbar-light ul.navbar-nav li:last-child{
   min-height: 1px;
 }
 .block-width .col-half.text{
-  margin-left: 170px;
+  padding-left: 170px;
 }
 .block-width .col-half.images img{
   width: 100%;
